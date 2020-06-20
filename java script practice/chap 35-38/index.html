@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise function</title>
+</head>
+
+<body>
+    <h4>1. Write a function that displays current date & time in your browser.
+    </h4>
+    <p>Click below</p>
+    <button onclick="tellTime();">Click Here</button>
+
+    <h4>2. Write a function that takes first & last name and then it greets the user using his full name.</h4>
+    <p>Click below</p>
+    <button onclick="fullname();">Click Here</button>
+
+    <h4>3. Write a function that adds two numbers (input by user) and returns the sum of two numbers.</h4>
+    <p>Click below</p>
+    <button onclick="Sum();">Click Here</button>
+
+    <h4>4. Calculator: Write a function that takes three arguments num1, num2 & operator & compute the desired operation. Return and show the desired result in your browser.</h4>
+    <p>Click below</p>
+    <button onclick="simplecalculator(60,30,'+');">Click Here</button>
+    <p id="demo">simplecalculator(60,30,+);</p>
+
+    <h4>5. Write a function that squares its argument.</h4>
+    <p>Click below</p>
+    <button onclick="square(32);">Click Here</button>
+    <p id="dem">square(32);</p>
+
+    <h4>6. Write a function that computes factorial of a number.</h4>
+    <p>Click below</p>
+    <!-- <button onclick="factorial(5);">Click Here</button>
+    <p id="fact">factorial(5);</p> -->
+    Enter Num: <input id="num"><button onclick="factorial();">Factorial</button>
+    <input id="answer">
+
+    <h4>7. Write a function that take start and end number as inputs & display counting in your browser.</h4>
+    Enter starting Number : <input id="start"><br> Enter Ending Number : <input id="end"><br>
+    <button onclick="counting();">Show Counting</button>
+    <p id="count">check console after clicking button</p>
+
+    <h4>8. Write a nested function that computes hypotenuse of a right angle triangle. Hypotenuse2 = Base2 + Perpendicular2 Take base and perpendicular as inputs. Outer function : calculateHypotenuse() Inner function: calculateSquare()</h4>
+    <p>Click below</p>
+
+    <button onclick="hypotenuse(23,16);">Click Here</button>
+    <p id="right"></p>
+
+    <h4>9. Write a function that calculates the area of a rectangle. A = width * height Pass width and height in following manner: i. Arguments as value ii. Arguments as variables</h4>
+    <button onclick="area(10,5);">Arguments as value</button>
+    <p id="area">area(10,5);</p>
+    <button onclick="triarea(width,height);">Arguments as variable</button>
+    <p id="triarea">triarea(width,height);</p>
+
+    <h4>10. Write a JavaScript function that checks whether a passed string is palindrome or not? A palindrome is word, phrase, or sequence that reads the same backward as forward, e.g., madam.</h4>
+    <form id="form_id">
+        Enter word for checking <input type="text" id="your_input" />
+    </form>
+
+    <h4>11. Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case. EXAMPLE STRING : 'the quick brown fox' EXPECTED OUTPUT : 'The Quick Brown Fox'
+    </h4>
+    <p>Click below</p>
+    <button onclick="titleCase( 'the quick brown fox');">Click Here</button>
+    <p id="case">titleCase( 'the quick brown fox');</p>
+
+    <h4>12. Write a JavaScript function that accepts a string as a parameter and find the longest word within the string. EXAMPLE STRING : 'Web Development Tutorial' EXPECTED OUTPUT : 'Development</h4>
+    <p>Click below</p>
+    <button onclick="longest('Web Development Tutorial');">Click here</button>
+    <p id="longest">longest('Web Development Tutorial');</p>
+
+    <h4>13. Write a JavaScript function that accepts two arguments, a string and a letter and the function will count the number of occurrences of the specified letter within the string. Sample arguments : 'JSResourceS.com', 'o'
+    </h4>
+    <p>Click below</p>
+    <button onclick="seek('JSResourceS.com', 'o');">CLick here</button>
+    <p>No of occurrences of imput word is </p>
+    <p id="seek">seek('JSResourceS.com', 'o');</p>
+
+
+    <h4>14. The Geometrizer Create 2 functions that calculate properties of a circle, using the definitions here.</h4>
+
+    <p>Click below
+    </p>
+    <button onclick="calcCircumference(5);">Calculate Circumference</button>
+    <div style="display: flex;">
+        <p> The circumference is : </p>
+        <p id="calcCircumference">calcCircumference(5);</p>
+    </div>
+    <button onclick="calcArea(5);">Calculate Area</button>
+    <div style="display: flex;">
+        <p> The area is : </p>
+        <p id="calcArea">calcArea(5);</p>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
